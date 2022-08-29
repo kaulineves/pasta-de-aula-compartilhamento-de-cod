@@ -1,0 +1,17 @@
+body{
+    background-color:rebeccapurple;
+}
+h1 {
+ color:whitesmoke;
+ height: auto;
+ background-color: black;
+}
+p {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+img{ 
+    border-radius: 10px;
+    height: 19px;
+}
