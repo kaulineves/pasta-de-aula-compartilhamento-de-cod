@@ -1,0 +1,52 @@
+html{
+    background-color:white;
+}
+body {
+
+    padding: 200px;
+    margin: 0 auto;
+    background-color: black;
+  }
+h1 {
+    margin: 0;
+    font-size: 30px;
+    padding: 50px 50px;
+    color: white;
+    text-shadow: 3px 3px 1px transparent;
+    
+}
+h2{
+    color: white;
+}
+p{
+    color:white;
+    
+}
+.logo{
+    
+    height: 50px;
+  }
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+} 
+  html {
+    background-color: red;
+  }
+  
+  body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: black;
+  }
+  button{
+      margin-bottom: 0%;
+      background-color: white
+  }
+  li{
+      background-color: white;
+  }
+  
+ 
