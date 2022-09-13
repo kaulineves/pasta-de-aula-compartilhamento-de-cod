@@ -1,0 +1,49 @@
+import top from '../../assets/favicon.png';
+import produto1 from '../../img/dipper.jpg';
+import produto2 from '../../img/Kaneki.jpg';
+import produto3 from '../../img/bob esponja.jpg';
+const carrinho2 = {
+    topo:{
+        titulo:"Carrinho2",
+        imagem: top,
+    },
+    detalhes4:{
+        titulo:"Detalhes do Carrinho 5",
+        tituloProduto: "Produto 005",
+        descricao:"Action figure do Kaneki",
+        preco:"R$ 200,00",
+        imagem:produto2
+    },
+
+    detalhes5:{
+        titulo:"Detalhes do Carrinho 6",
+        tituloProduto: "Produto 006",
+        descricao:"Funko do Dipper (Gravity Falls)",
+        preco:"R$ 100,00",
+        imagem:produto1
+    },
+    itens2:{
+        titulo:"Itens do carrinho2",
+        lista:[
+            {
+                nome: "Produto 005",
+                descricao:"Action figure do Kaneki",
+                preco:"R$ 200,00",
+                imagem:produto1
+            },
+            {
+                nome: "Produto 006",
+                descricao:"Funko do Dipper (Gravity Falls)",
+                preco:"R$ 100,00",
+                imagem:produto2
+            },
+            {
+                nome: "Produto 007",
+                descricao:"Brinquedo do bob esponja",
+                preco:"R$ 50,00",
+                imagem:produto3
+            },
+        ]
+    }
+}
+export default carrinho2;    
