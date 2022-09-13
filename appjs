@@ -1,0 +1,27 @@
+import { View, Text, FlatList } from "react-native";
+import Detalhes from "./sources/telas/Carrinho/Detalhes";
+import Topo from "./sources/telas/Carrinho/Topo";
+import Mocks from "./sources/mocks/carrinho";
+import Mocks2 from "./sources/mocks/carrinho2";
+import Item from "./sources/telas/Carrinho/item";
+
+export default function App(){
+  return(
+    <View>
+      <Text>Principal</Text>
+      <Topo {...Mocks.topo}/>
+      <Detalhes {...Mocks.detalhes}/>
+       <FlatList
+        data={Mocks.itens.lista}
+        renderItem={Item}
+        keyExtractor={({nome})=>nome}
+       />
+
+<FlatList
+        data={Mocks2.itens2.lista}
+        renderItem={Item}
+        keyExtractor={({nome})=>nome}
+       />
+    </View>
+  )
+}
