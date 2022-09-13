@@ -1,0 +1,16 @@
+import { Text, View, Image } from "react-native";
+
+export default function Item({item:{nome,imagem,descricao,preco}}){
+    return (
+           <View key={nome}>
+               <Text>{nome}</Text>
+               <Text>{descricao}</Text>
+               <Image
+                 source={imagem}
+                  style={{height:50, width:50,resizeMode:'contain'}}
+                 />
+               <Text>{preco}</Text>
+              
+           </View>
+    );
+}
