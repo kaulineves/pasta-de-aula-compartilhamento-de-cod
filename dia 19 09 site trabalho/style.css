@@ -1,0 +1,58 @@
+*{
+    background-color: black;color:white;
+    margin: 0;padding: 0;
+  }
+  
+  header{
+    background-color:black;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  header ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  header ul li{
+    display: flex;
+    margin: 20px;
+    background-image: linear-gradient(black,grey);
+    border-radius: 40px;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  header img{
+    height: 100%;
+    display: flex;
+    width: auto;
+  }
+  .baner{
+    background-color: blue;
+    height: 500px;
+    animation: slide1 05s infinite;
+  }
+
+@keyframes slide1{
+  0%,30%{
+    background-image: url(kauli.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+  }
+  35%,65%{
+    background-image: url(kauli2.png);
+  }
+  70%,100%{
+    background-image: url(kauli3.png);
+  }
+
+}
