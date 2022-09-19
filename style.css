@@ -1,17 +1,43 @@
-body{
-    background-color:rebeccapurple;
+
+*{
+  background-color: black;color:white;
+  margin: 0;padding: 0;
 }
-h1 {
- color:whitesmoke;
- height: auto;
- background-color: black;
+
+header{
+  background-color:black;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-p {
-    font-size: large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
+header ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-img{ 
-    border-radius: 10px;
-    height: 19px;
+header ul li{
+  display: flex;
+  margin: 20px;
+  background-image: linear-gradient(black,grey);
+  border-radius: 40px;
+  width: 100px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header img{
+  height: 100%;
+  display: flex;
+  width: auto;
+}
+.baner{
+  background-color: blue;
+  height: 500px;
+  
 }
